@@ -155,7 +155,6 @@ public class LibrarySystem {
         return null;
     }
 
-    // Input validator method
     private static int validInput(String label, int min, int max) {
         boolean valid = false;
         int number = -1;
@@ -219,4 +218,4 @@ class Book {
         System.out.println("Genre: " + genre);
         System.out.println("Year: " + year);
     }
-}
+}   
